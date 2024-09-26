@@ -15116,6 +15116,20 @@ body,
 }
 
 @media only screen and (min-width: 993px) {
+  .container-layout .col-lg-9 > .row {
+    height: 100%;
+  }
+}
+
+.container-layout .col-lg-7 {
+  height: 100%;
+}
+
+.container-layout .wrapProduct {
+  height: 100%;
+}
+
+@media only screen and (min-width: 993px) {
   .wrapperMenuSliderbar .wrapContentSlide {
     height: calc(100% - 100px);
   }
@@ -15141,6 +15155,43 @@ body,
 
 @media only screen and (min-width: 993px) {
   .wrapProductCategory {
-    height: 100%;
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-layout .wrapListProduct.productListLayout {
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-layout .wrapListProductContent {
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-layout .row .col-lg-9 .col-lg-5 {
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-layout .row .col-lg-9 .col-lg-5 .wrapListOrderNew {
+    height: 100% !important;
+    padding-bottom: 120px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-layout .row .col-lg-9 .col-lg-5 .wrapListOrderNew .wrapListOder {
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-layout .row .col-lg-9 .col-lg-5 .wrapListOder {
+    height: 50vh !important;
   }
 }
