@@ -14141,22 +14141,54 @@ a {
   position: relative;
   border: 1px solid #c0c0c0;
 }
+.wrapperMenuSliderbar .tab-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.wrapperMenuSliderbar .tab-container .nav-button {
+  outline: none;
+  background: transparent;
+  border: 0px;
+}
+.wrapperMenuSliderbar .tab-container #prev {
+  position: absolute;
+  top: 50%;
+  left: -3px;
+  transform: translateY(-50%);
+}
+.wrapperMenuSliderbar .tab-container #next {
+  position: absolute;
+  top: 50%;
+  right: -3px;
+  transform: translateY(-50%);
+}
+.wrapperMenuSliderbar .tab-wrapper {
+  overflow-x: auto;
+  flex-grow: 1;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.wrapperMenuSliderbar .tab-wrapper::-webkit-scrollbar {
+  display: none;
+}
 .wrapperMenuSliderbar .wrapContentSlide {
   padding: 15px;
 }
 .wrapperMenuSliderbar .tab-change__table {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 15px;
   flex-wrap: nowrap;
   margin-bottom: 0px;
-  padding: 15px 0px;
+  padding: 15px;
+  width: 100%;
 }
 .wrapperMenuSliderbar .tab-change__table .button-style {
   background-color: white;
   border: 1px solid #003049;
   color: #003049;
+  white-space: nowrap;
 }
 .wrapperMenuSliderbar .tab-change__table .button-style.active {
   background-color: #003049;

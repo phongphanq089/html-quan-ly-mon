@@ -39,21 +39,38 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="wrapperMenuSliderbar">
-              <ul class="nav nav-pills mb-3 tab-change__table" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link  button-style active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Trong nhà</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ngoài sân</button>
-                </li>
-              </ul>
+              <div class="tab-container"><button id="prev" class="nav-button">
+<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
+</button>
+                <div class="tab-wrapper">
+                  <ul class="nav nav-pills tab-change__table" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link  button-style active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Trong nhà</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ngoài sân</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ngoài đường</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Lầu 1</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Lầu 2</button>
+                    </li>
+                  </ul>
+                </div><button id="next" class="nav-button">
+<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+</button>
+              </div>
               <div class="wrapContentSlide">
                 <div class="tab-content" id="pills-tabContent">
-                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                  <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                     <div class="wrapListTable"><a class="wrapTableItem active selected" href="javascript:;">1</a><a class="wrapTableItem" href="javascript:;">2</a><a class="wrapTableItem" href="javascript:;">3</a><a class="wrapTableItem" href="javascript:;">4</a><a class="wrapTableItem" href="javascript:;">5</a><a class="wrapTableItem" href="javascript:;">6</a><a class="wrapTableItem" href="javascript:;">7</a><a class="wrapTableItem" href="javascript:;">8</a><a class="wrapTableItem" href="javascript:;">9</a><a class="wrapTableItem" href="javascript:;">10</a>
                     </div>
                   </div>
-                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="1">
+                  <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="1">
                     <div class="wrapListTable"><a class="wrapTableItem active selected" href="javascript:;">1</a><a class="wrapTableItem" href="javascript:;">2</a><a class="wrapTableItem" href="javascript:;">3</a><a class="wrapTableItem" href="javascript:;">4</a><a class="wrapTableItem" href="javascript:;">5</a><a class="wrapTableItem" href="javascript:;">6</a><a class="wrapTableItem" href="javascript:;">7</a><a class="wrapTableItem" href="javascript:;">8</a><a class="wrapTableItem" href="javascript:;">9</a><a class="wrapTableItem" href="javascript:;">10</a>
                     </div>
                   </div>
@@ -953,7 +970,7 @@
       </div>
       <div class="offcanvas offcanvas-end offcanvas-report__detail" data-bs-scroll="true" tabindex="-1" id="openReportDetail">
         <div class="offcanvas-body">
-          <div class="wrapReportDetail"><a class="wrapHeading" href="javascript:;">
+          <div class="wrapReportDetail"><a class="wrapHeading" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#openReport">
               <div class="wrapIcon">
                  <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg></div>
               <h3 class="text">Xem hóa đơn</h3></a>

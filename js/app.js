@@ -1,5 +1,36 @@
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  const tabWrapper = document.querySelector('.tab-wrapper');
+  const tabItems = document.querySelectorAll('.tab-change__table .nav-item');
+  const prevButton = document.getElementById('prev');
+  const nextButton = document.getElementById('next');
+
+  if (tabItems.length <= 2) {
+    prevButton.style.display = 'none';
+    nextButton.style.display = 'none';
+    $('.tab-change__table').css("justify-content", "center");
+  } else {
+
+    function updateButtons() {
+      prevButton.disabled = tabWrapper.scrollLeft === 0;
+      nextButton.disabled = tabWrapper.scrollLeft + tabWrapper.clientWidth >= tabWrapper.scrollWidth;
+    }
+
+    prevButton.addEventListener('click', function () {
+      tabWrapper.scrollBy({ left: -200, behavior: 'smooth' });
+    });
+
+    nextButton.addEventListener('click', function () {
+      tabWrapper.scrollBy({ left: 200, behavior: 'smooth' });
+    });
+
+    tabWrapper.addEventListener('scroll', updateButtons);
+
+    updateButtons();
+  }
+});
+
 const ProductNews = () => {
   $('.wrapTableItem.selected').on('click', function () {
     $('.wrapNoProduct').show()
@@ -33,9 +64,10 @@ const productSelected = () => {
     $('.wrapListOrderSelected').hide();
     $('.wrapCallOrderNew').hide()
     $('.wrapListOrderNew').hide()
-    $('.wrapProduct').hide()
+    // $('.wrapProduct').hide()
     $('.wrapReportPrinting').hide()
   })
+
   $('.wrapTableItem').on('click', function () {
     if ($(this).hasClass('selected')) {
 
@@ -68,9 +100,7 @@ const customStyleMobile = () => {
     $('.wrapListOrderSelected .wrapContent').css("padding-bottom", heightBottomBar + heightFooterOrderNew + 300 + "px");
     $('.wrapListOrderSelected .wrapFooter').css("bottom", heightBottomBar + 30 + "px");
   }
-
 }
-
 
 $(window).on('load', function () {
 
