@@ -1,1067 +1,1110 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
     <title>Hệ thống quan lý món ăn | Hệ thống quan lý món ăn</title>
-    
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
-    <link rel="icon" type="image/ico" href="images/favicon.ico"/>
-    
-    <meta property="og:title" content="Hệ thống quan lý món ăn | Hệ thống quan lý món ăn"/>
-    <meta name="description" content="Hệ thống quan lý món ăn, Hệ thống quan lý món ăn"/>
-    <meta name="keywords" content="Hệ thống quan lý món ăn, Hệ thống quan lý món ăn"/>
-    <link rel="image_src" type="image/jpg" href=""/>
-    
-    <meta name="dc.created" content="Hệ thống quan lý món ăn"/>
-    <meta name="dc.publisher" content="Hệ thống quan lý món ăn"/>
-    <meta name="dc.rights.copyright" content="Hệ thống quan lý món ăn"/>
-    <meta name="dc.creator.name" content="Hệ thống quan lý món ăn"/>
-    
-    
-    
-    <link rel="alternate" href="https://www.hms.app" hreflang="vn"/>
-    <link href="https://www.hms.app" rel="canonical"/>
-    
-    <meta http-equiv="cache-control" content="no-cache"/>
-    <meta http-equiv="expires" content="0"/>
-    <meta http-equiv="pragma" content="no-cache"/>
-    
+
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+
+    <meta property="og:title" content="Hệ thống quan lý món ăn | Hệ thống quan lý món ăn" />
+    <meta name="description" content="Hệ thống quan lý món ăn, Hệ thống quan lý món ăn" />
+    <meta name="keywords" content="Hệ thống quan lý món ăn, Hệ thống quan lý món ăn" />
+    <link rel="image_src" type="image/jpg" href="" />
+
+    <meta name="dc.created" content="Hệ thống quan lý món ăn" />
+    <meta name="dc.publisher" content="Hệ thống quan lý món ăn" />
+    <meta name="dc.rights.copyright" content="Hệ thống quan lý món ăn" />
+    <meta name="dc.creator.name" content="Hệ thống quan lý món ăn" />
+
+
+
+    <link rel="alternate" href="https://www.hms.app" hreflang="vn" />
+    <link href="https://www.hms.app" rel="canonical" />
+
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+
     <!-- CSS-->
-    <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
-    <link rel="stylesheet" type="text/css" href="css/app.css"/>
-  </head>
-  <body class="loadingPage">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css?v=a64763ea06594311cdd4282bdb4bf2ec" />
+    <link rel="stylesheet" type="text/css" href="css/app.css?v=a64763ea06594311cdd4282bdb4bf2ec" />
+</head>
+
+<body class="loadingPage">
     <div class="wrapperLayout">
-      <div class="container container-layout">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="wrapperMenuSliderbar">
-              <div class="tab-container"><button id="prev" class="nav-button">
-<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
-</button>
-                <div class="tab-wrapper">
-                  <ul class="nav nav-pills tab-change__table" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link  button-style active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Trong nhà</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ngoài sân</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ngoài đường</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Lầu 1</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Lầu 2</button>
-                    </li>
-                  </ul>
-                </div><button id="next" class="nav-button">
-<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
-</button>
-              </div>
-              <div class="wrapContentSlide">
-                <div class="tab-content" id="pills-tabContent">
-                  <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                    <div class="wrapListTable"><a class="wrapTableItem active selected" href="javascript:;">1</a><a class="wrapTableItem" href="javascript:;">2</a><a class="wrapTableItem" href="javascript:;">3</a><a class="wrapTableItem" href="javascript:;">4</a><a class="wrapTableItem" href="javascript:;">5</a><a class="wrapTableItem" href="javascript:;">6</a><a class="wrapTableItem" href="javascript:;">7</a><a class="wrapTableItem" href="javascript:;">8</a><a class="wrapTableItem" href="javascript:;">9</a><a class="wrapTableItem" href="javascript:;">10</a>
+        <div class="container container-layout">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="wrapperMenuSliderbar">
+                        <div class="tab-container">
+                            <div class="tab-wrapper">
+                                <ul class="nav nav-pills tab-change__table" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link  button-style active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Trong nhà</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ngoài sân</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ngoài đường</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Lầu 1</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link button-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Lầu 2</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="wrapContentSlide">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                    <div class="wrapListTable"><a class="wrapTableItem active selected" href="javascript:;">1</a><a class="wrapTableItem" href="javascript:;">2</a><a class="wrapTableItem" href="javascript:;">3</a><a class="wrapTableItem" href="javascript:;">4</a><a class="wrapTableItem" href="javascript:;">5</a><a class="wrapTableItem" href="javascript:;">6</a><a class="wrapTableItem" href="javascript:;">7</a><a class="wrapTableItem" href="javascript:;">8</a><a class="wrapTableItem" href="javascript:;">9</a><a class="wrapTableItem" href="javascript:;">10</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="1">
+                                    <div class="wrapListTable"><a class="wrapTableItem active selected" href="javascript:;">1</a><a class="wrapTableItem" href="javascript:;">2</a><a class="wrapTableItem" href="javascript:;">3</a><a class="wrapTableItem" href="javascript:;">4</a><a class="wrapTableItem" href="javascript:;">5</a><a class="wrapTableItem" href="javascript:;">6</a><a class="wrapTableItem" href="javascript:;">7</a><a class="wrapTableItem" href="javascript:;">8</a><a class="wrapTableItem" href="javascript:;">9</a><a class="wrapTableItem" href="javascript:;">10</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapBottomBarMenu">
+                            <div class="nav nav-pills wrapBottomBar" id="pills-tab"> <a class="bottom-bar_item nav-link" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#openReport">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chart-pie">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M10 3.2a9 9 0 1 0 10.8 10.8a1 1 0 0 0 -1 -1h-6.8a2 2 0 0 1 -2 -2v-7a.9 .9 0 0 0 -1 -.8" />
+                                        <path d="M15 3.5a9 9 0 0 1 5.5 5.5h-4.5a1 1 0 0 1 -1 -1v-4.5" />
+                                    </svg><span>Báo cáo </span></a><a class="bottom-bar_item nav-link active" href="index.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-tools-kitchen-2">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+                                    </svg><span>Bàn</span></a><a class="bottom-bar_item nav-link" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#openSetting">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-settings">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+                                        <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                    </svg><span>Cài đặt</span></a></div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="1">
-                    <div class="wrapListTable"><a class="wrapTableItem active selected" href="javascript:;">1</a><a class="wrapTableItem" href="javascript:;">2</a><a class="wrapTableItem" href="javascript:;">3</a><a class="wrapTableItem" href="javascript:;">4</a><a class="wrapTableItem" href="javascript:;">5</a><a class="wrapTableItem" href="javascript:;">6</a><a class="wrapTableItem" href="javascript:;">7</a><a class="wrapTableItem" href="javascript:;">8</a><a class="wrapTableItem" href="javascript:;">9</a><a class="wrapTableItem" href="javascript:;">10</a>
-                    </div>
-                  </div>
                 </div>
-              </div>
-              <div class="wrapBottomBarMenu">
-                <div class="nav nav-pills wrapBottomBar" id="pills-tab"> <a class="bottom-bar_item nav-link" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#openReport">
-                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chart-pie"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 3.2a9 9 0 1 0 10.8 10.8a1 1 0 0 0 -1 -1h-6.8a2 2 0 0 1 -2 -2v-7a.9 .9 0 0 0 -1 -.8" /><path d="M15 3.5a9 9 0 0 1 5.5 5.5h-4.5a1 1 0 0 1 -1 -1v-4.5" /></svg><span>Báo cáo </span></a><a class="bottom-bar_item nav-link active" href="index.html">
-                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tools-kitchen-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" /></svg><span>Bàn</span></a><a class="bottom-bar_item nav-link" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#openSetting">
-                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-settings"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /></svg><span>Cài đặt</span></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-9 relative">
-            <div class="row"> 
-              <div class="col-lg-7">
-                <div class="wrapProduct"><a class="wrapHeading closeSlideProduct" href="javascript:;">
-                    <div class="wrapIcon">
-                       <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg></div>
-                    <h3 class="text">Bàn 1 - trong nhà</h3></a>
-                  <div class="wrapListProduct productListLayout">
-                    <div class="wrapProductCategory"> 
-                      <div class="wrapListProduct nav nav-pills" id="pills-tab" role="tablist"> <a class="wrapItem nav-link active" href="javascrtipt:;" id="tab-1-tab" data-bs-toggle="pill" data-bs-target="#tab-1" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Bia</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-2-tab" data-bs-toggle="pill" data-bs-target="#tab-2" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Bò</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-3-tab" data-bs-toggle="pill" data-bs-target="#tab-3" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Heo</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-4-tab" data-bs-toggle="pill" data-bs-target="#tab-4" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Gỏi</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-5-tab" data-bs-toggle="pill" data-bs-target="#tab-5" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Đồ hộp</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-6-tab" data-bs-toggle="pill" data-bs-target="#tab-6" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Đồ khô</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-7-tab" data-bs-toggle="pill" data-bs-target="#tab-7" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Khác</a>
-                      </div>
-                    </div>
-                    <div class="wrapListProductContent">
-                      <div class="tab-content">
-                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
-                          <div class="wrapList">
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
+                <div class="col-lg-9 relative">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="wrapProduct"><a class="wrapHeading closeSlideProduct" href="javascript:;">
+                                    <div class="wrapIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M15 6l-6 6l6 6" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="text">Bàn 1 - trong nhà</h3>
+                                </a>
+                                <div class="wrapListProduct productListLayout">
+                                    <div class="wrapProductCategory">
+                                        <div class="wrapListProduct nav nav-pills" id="pills-tab" role="tablist"> <a class="wrapItem nav-link active" href="javascrtipt:;" id="tab-1-tab" data-bs-toggle="pill" data-bs-target="#tab-1" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Bia</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-2-tab" data-bs-toggle="pill" data-bs-target="#tab-2" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Bò</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-3-tab" data-bs-toggle="pill" data-bs-target="#tab-3" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Heo</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-4-tab" data-bs-toggle="pill" data-bs-target="#tab-4" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Gỏi</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-5-tab" data-bs-toggle="pill" data-bs-target="#tab-5" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Đồ hộp</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-6-tab" data-bs-toggle="pill" data-bs-target="#tab-6" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Đồ khô</a><a class="wrapItem nav-link" href="javascrtipt:;" id="tab-7-tab" data-bs-toggle="pill" data-bs-target="#tab-7" type="button" role="tab" aria-controls="pills-order" aria-selected="true">Khác</a>
+                                        </div>
+                                    </div>
+                                    <div class="wrapListProductContent">
+                                        <div class="tab-content">
+                                            <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
+                                                <div class="wrapList">
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
+                                                <div class="wrapList">
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
+                                                <div class="wrapList">
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
+                                                <div class="wrapList">
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
+                                                <div class="wrapList">
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-6" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
+                                                <div class="wrapList">
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-7" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
+                                                <div class="wrapList">
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrapCart">
+                                                        <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt="" /></div>
+                                                        <div class="wrapInfo">
+                                                            <h3 class="title">Tên món ăn</h3>
+                                                            <div class="price">100,000đ</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrapBottomMobile"><a class="btnActionOrdering" href="javascript:;"><span>Đang chọn: 8 món</span>
+                                        <div class="wrapRight">
+                                            Tiếp tục<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                <path d="M9 6l6 6l-6 6" />
+                                            </svg> </div>
+                                    </a></div>
                             </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                          </div>
                         </div>
-                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
-                          <div class="wrapList">
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
+                        <div class="col-lg-5">
+                            <div class="wrapNoProduct">
+                                <div class="wrapContent">
+                                    <h3 class="text">Bàn chưa có món hãy gọi món </h3><a class="btnAddProduct btn-style" href="javascript:;">Click vào đây để thêm món</a>
+                                </div>
                             </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
-                          <div class="wrapList">
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
-                          <div class="wrapList">
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
-                          <div class="wrapList">
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-6" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
-                          <div class="wrapList">
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-7" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
-                          <div class="wrapList">
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                            <div class="wrapCart"> 
-                              <div class="wrapImgResize img16And9"><img src="https://vinhhanhfood.com/wp-content/uploads/2020/06/nom-du-du-tai-heo.jpg" alt=""/></div>
-                              <div class="wrapInfo"> 
-                                <h3 class="title">Tên món ăn</h3>
-                                <div class="price">100,000đ</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="wrapBottomMobile"><a class="btnActionOrdering" href="javascript:;"><span>Đang chọn: 8 món</span>
-                      <div class="wrapRight">
-                         Tiếp tục<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg> </div></a></div>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <div class="wrapNoProduct"> 
-                  <div class="wrapContent"> 
-                    <h3 class="text">Bàn chưa có món hãy gọi món </h3><a class="btnAddProduct btn-style" href="javascript:;">Click vào đây để thêm món</a>
-                  </div>
-                </div>
-                <div class="wrapListOrderNew"><a class="wrapHeading wrapHeadingOrderNew" href="javascript:;">
-                    <div class="wrapIcon">
-                       <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg></div>
-                    <h3 class="text">Bàn 1 - trong nhà</h3></a>
-                  <div class="wrapContent"> 
-                    <div class="wrapListOder"> 
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                            <div class="wrapListOrderNew"><a class="wrapHeading wrapHeadingOrderNew" href="javascript:;">
+                                    <div class="wrapIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M15 6l-6 6l6 6" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="text">Bàn 1 - trong nhà</h3>
+                                </a>
+                                <div class="wrapContent">
+                                    <div class="wrapListOder">
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">10</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">5</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">3</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">1</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">1</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">1</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">10</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">1</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">10</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="wrapFooter"><a class="btn-style bg-border cancel" href="javascript:;">Hủy</a><a class="btn-style confirm" href="javascript:;">Xác nhận</a></div>
-                </div>
-                <div class="wrapOrderSuccsess"> 
-                  <div class="wrapItemSucess"><svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_78_2389)">
-<path d="M21.8667 41.0001L38.2667 54.6667L60.1334 27.3334M41.0001 79.2667C35.9748 79.2667 30.9988 78.2769 26.356 76.3539C21.7133 74.4308 17.4948 71.6121 13.9414 68.0587C10.3881 64.5053 7.56936 60.2868 5.64628 55.6441C3.7232 51.0014 2.7334 46.0253 2.7334 41.0001C2.7334 35.9748 3.7232 30.9988 5.64628 26.356C7.56936 21.7133 10.3881 17.4948 13.9414 13.9414C17.4948 10.3881 21.7133 7.56935 26.356 5.64627C30.9988 3.72319 35.9748 2.7334 41.0001 2.7334C51.149 2.7334 60.8823 6.76505 68.0587 13.9414C75.2351 21.1178 79.2667 30.8511 79.2667 41.0001C79.2667 51.149 75.2351 60.8823 68.0587 68.0587C60.8823 75.2351 51.149 79.2667 41.0001 79.2667Z" stroke="#2BA700" stroke-width="5"/>
-</g>
-<defs>
-<clipPath id="clip0_78_2389">
-<rect width="82" height="82" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-                    <h3 class="title">Đặt món thành công Đang in phiếu bếp</h3>
-                  </div>
-                </div>
-                <div class="wrapListOrderSelected"><a class="wrapHeading wrapHeading_v2" href="javascript:;">
-                    <div class="wrapIcon">
-                       <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg></div>
-                    <h3 class="text">Bàn 2 - trong nhà</h3></a>
-                  <div class="wrapContent">
-                    <div class="wrapListOder"> 
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrapFooter"><a class="btn-style bg-border cancel" href="javascript:;">Hủy</a><a class="btn-style confirm" href="javascript:;">Xác nhận</a></div>
+                            </div>
+                            <div class="wrapOrderSuccsess">
+                                <div class="wrapItemSucess"><svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_78_2389)">
+                                            <path d="M21.8667 41.0001L38.2667 54.6667L60.1334 27.3334M41.0001 79.2667C35.9748 79.2667 30.9988 78.2769 26.356 76.3539C21.7133 74.4308 17.4948 71.6121 13.9414 68.0587C10.3881 64.5053 7.56936 60.2868 5.64628 55.6441C3.7232 51.0014 2.7334 46.0253 2.7334 41.0001C2.7334 35.9748 3.7232 30.9988 5.64628 26.356C7.56936 21.7133 10.3881 17.4948 13.9414 13.9414C17.4948 10.3881 21.7133 7.56935 26.356 5.64627C30.9988 3.72319 35.9748 2.7334 41.0001 2.7334C51.149 2.7334 60.8823 6.76505 68.0587 13.9414C75.2351 21.1178 79.2667 30.8511 79.2667 41.0001C79.2667 51.149 75.2351 60.8823 68.0587 68.0587C60.8823 75.2351 51.149 79.2667 41.0001 79.2667Z" stroke="#2BA700" stroke-width="5" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_78_2389">
+                                                <rect width="82" height="82" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <h3 class="title">Đặt món thành công Đang in phiếu bếp</h3>
+                                </div>
+                            </div>
+                            <div class="wrapListOrderSelected"><a class="wrapHeading wrapHeading_v2" href="javascript:;">
+                                    <div class="wrapIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M15 6l-6 6l6 6" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="text">Bàn 2 - trong nhà</h3>
+                                </a>
+                                <div class="wrapContent">
+                                    <div class="wrapListOder">
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">10</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">5</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">3</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">1</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">1</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">1</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">10</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">1</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
-                      <div class="wrapOderItem"> 
-                        <div class="wrapLeft"> 
-                          <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
-                        </div>
-                        <div class="wrapRight"> <span class="btn-action plus">
+                                        </div>
+                                        <div class="wrapOderItem">
+                                            <div class="wrapLeft">
+                                                <h4 class="title">Tên món ăn</h4><span class="price">100.000đ</span>
+                                            </div>
+                                            <div class="wrapRight"> <span class="btn-action plus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg></span><span class="quantity">10</span><span class="btn-action minus">
                              <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg></span></div>
-                      </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrapFooter"><a class="btn-style bg-border add-product" href="javscript:;">
+                                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                    <path d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                                </svg></div><span>Gọi thêm món </span>
+                                        </a>
+                                        <div class="wrapTop"> <span class="left">Tổng:</span><span class="right">1.500.000đ</span></div>
+                                        <div class="wrapListBtn"><a class="btn-style bg-border" href="javascript:;">Không in</a><a class="btn-style print-order" href="javascript:;">In hóa đơn</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapCallOrderNew">
+                                <div class="wrapContent">
+                                    <h3 class="text">Gọi thêm món</h3>
+                                </div>
+                            </div>
+                            <div class="wrapReportPrinting"><a class="wrapHeading" href="javascript:;">
+                                    <div class="wrapIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M15 6l-6 6l6 6" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="text">Bàn số 2 - trong nhà</h3>
+                                </a>
+                                <div class="wrapListOderDetail">
+                                    <div class="wrapTitleDetail"> <span class="text">Bàn 01</span>
+                                        <sapn class="time">20-08-2024 19:14:00</sapn>
+                                    </div>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Món</th>
+                                                <th>Đơn giá</th>
+                                                <th>SL</th>
+                                                <th>TT</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bò nướng lá lốt</td>
+                                                <td>100.000</td>
+                                                <td>X1</td>
+                                                <td>100.000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="wrapLoading"> <span>Đang in phiếu tính tiền..</span></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="wrapFooter"><a class="btn-style bg-border add-product" href="javscript:;">
-                        <div class="icon"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" /></svg></div><span>Gọi thêm món </span></a>
-                      <div class="wrapTop"> <span class="left">Tổng:</span><span class="right">1.500.000đ</span></div>
-                      <div class="wrapListBtn"><a class="btn-style bg-border" href="javascript:;">Không in</a><a class="btn-style print-order" href="javascript:;">In hóa đơn</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end offcanvas-report" data-bs-scroll="true" tabindex="-1" id="openReport">
+            <div class="offcanvas-body">
+                <div class="wrapListReport">
+                    <h3 class="title">Xem hóa đơn </h3><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div class="wrapContent">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Bàn</th>
+                                    <th>Thời gian</th>
+                                    <th>Số tiền</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
+                                    <td>20-08-2024 19:14:00</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
+                                    <td>20-08-2024 19:14:00</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
+                                    <td>20-08-2024 19:14:00</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
+                                    <td>20-08-2024 19:14:00</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
+                                    <td>20-08-2024 19:14:00</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
+                                    <td>20-08-2024 19:14:00</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
+                                    <td>20-08-2024 19:14:00</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
+                                    <td>20-08-2024 19:14:00</td>
+                                    <td>100</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                  </div>
                 </div>
-                <div class="wrapCallOrderNew"> 
-                  <div class="wrapContent"> 
-                    <h3 class="text">Gọi thêm món</h3>
-                  </div>
-                </div>
-                <div class="wrapReportPrinting"><a class="wrapHeading" href="javascript:;">
-                    <div class="wrapIcon">
-                       <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg></div>
-                    <h3 class="text">Bàn số 2 - trong nhà</h3></a>
-                  <div class="wrapListOderDetail">
-                    <div class="wrapTitleDetail"> <span class="text">Bàn 01</span>
-                      <sapn class="time">20-08-2024 19:14:00</sapn>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end offcanvas-report__detail" data-bs-scroll="true" tabindex="-1" id="openReportDetail">
+            <div class="offcanvas-body">
+                <div class="wrapReportDetail"><a class="wrapHeading" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#openReport">
+                        <div class="wrapIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M15 6l-6 6l6 6" />
+                            </svg>
+                        </div>
+                        <h3 class="text">Xem hóa đơn</h3>
+                    </a>
+                    <div class="wrapListOderDetail">
+                        <div class="wrapTitleDetail"> <span class="text">Bàn 01</span>
+                            <sapn class="time">20-08-2024 19:14:00</sapn>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Món</th>
+                                    <th>Đơn giá</th>
+                                    <th>SL</th>
+                                    <th>TT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Tên món</td>
+                                    <td>100.000</td>
+                                    <td>X1</td>
+                                    <td>100.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="wrapTotal"> <span>Tổng: </span><span class="price">600.000đ</span></div>
+                        <div class="wrapBottom">
+                            <div class="wrapFoter"> <a class="btnItem btnBorder" href="bao-cao.html" data-bs-toggle="offcanvas" data-bs-target="#openReport">Quay lại</a><a class="btnItem" href="javascript:;">In hóa đơn</a></div>
+                        </div>
                     </div>
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>Món</th>
-                          <th>Đơn giá</th>
-                          <th>SL</th>
-                          <th>TT</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                        <tr>
-                          <td>Bò nướng lá lốt</td>
-                          <td>100.000</td>
-                          <td>X1</td>
-                          <td>100.000</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="wrapLoading"> <span>Đang in phiếu tính tiền..</span></div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="offcanvas offcanvas-end offcanvas-report" data-bs-scroll="true" tabindex="-1" id="openReport">
-        <div class="offcanvas-body">
-          <div class="wrapListReport">
-            <h3 class="title">Xem hóa đơn </h3><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            <div class="wrapContent"> 
-              <table class="table table-borderless">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Bàn</th>
-                    <th>Thời gian</th>
-                    <th>Số tiền</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
-                    <td>20-08-2024 19:14:00</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
-                    <td>20-08-2024 19:14:00</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
-                    <td>20-08-2024 19:14:00</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
-                    <td>20-08-2024 19:14:00</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
-                    <td>20-08-2024 19:14:00</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
-                    <td>20-08-2024 19:14:00</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
-                    <td>20-08-2024 19:14:00</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td><a class="action-detail" href="javscript:;" data-bs-toggle="offcanvas" data-bs-target="#openReportDetail">Tên bàn </a></td>
-                    <td>20-08-2024 19:14:00</td>
-                    <td>100</td>
-                  </tr>
-                </tbody>
-              </table>
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="openSetting">
+            <div class="offcanvas-header"><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button></div>
+            <div class="offcanvas-body">
+                <div class="wrapList"><a class="wrapItem" href="javascript:;">Thêm bàn</a><a class="wrapItem" href="javascript:;">Thêm món</a><a class="wrapItem" href="javascript:;">Cấu hình máy in bill</a><a class="wrapItem" href="javascript:;">Cấu hình máy in bếp</a></div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="offcanvas offcanvas-end offcanvas-report__detail" data-bs-scroll="true" tabindex="-1" id="openReportDetail">
-        <div class="offcanvas-body">
-          <div class="wrapReportDetail"><a class="wrapHeading" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#openReport">
-              <div class="wrapIcon">
-                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg></div>
-              <h3 class="text">Xem hóa đơn</h3></a>
-            <div class="wrapListOderDetail">
-              <div class="wrapTitleDetail"> <span class="text">Bàn 01</span>
-                <sapn class="time">20-08-2024 19:14:00</sapn>
-              </div>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Món</th>
-                    <th>Đơn giá</th>
-                    <th>SL</th>
-                    <th>TT</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                  <tr>
-                    <td>Tên món</td>
-                    <td>100.000</td>
-                    <td>X1</td>
-                    <td>100.000</td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="wrapTotal"> <span>Tổng: </span><span class="price">600.000đ</span></div>
-              <div class="wrapBottom"> 
-                <div class="wrapFoter"> <a class="btnItem btnBorder" href="bao-cao.html" data-bs-toggle="offcanvas" data-bs-target="#openReport">Quay lại</a><a class="btnItem" href="javascript:;">In hóa đơn</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="openSetting">
-        <div class="offcanvas-header"><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button></div>
-        <div class="offcanvas-body">
-          <div class="wrapList"><a class="wrapItem" href="javascript:;">Thêm bàn</a><a class="wrapItem" href="javascript:;">Thêm món</a><a class="wrapItem" href="javascript:;">Cấu hình máy in bill</a><a class="wrapItem" href="javascript:;">Cấu hình máy in bếp</a></div>
-        </div>
-      </div>
     </div>
     <!-- JS-->
-    <script src="js/lib.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/lib.js?v=a64763ea06594311cdd4282bdb4bf2ec"></script>
+    <script src="js/app.js?v=a64763ea06594311cdd4282bdb4bf2ec"></script>
     <!-- end JS-->
-  </body>
+</body>
+
 </html>
